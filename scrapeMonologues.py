@@ -3,7 +3,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-url = 'https://en.wikiquote.org/wiki/The_Twilight_Zone_(1959_TV_series)#Opening_narrations'
+url = 'https://en.wikiquote.org/wiki/The_Twilight_Zone_(1959_TV_series)'
 r = requests.get(url)
 r_html = r.text
 
