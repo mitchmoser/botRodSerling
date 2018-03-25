@@ -20,5 +20,8 @@ with open("rod.txt", encoding="utf-8") as f:
 # build model
 text_model = markovify.Text(text)
 
-# tweet markov-generated sentence
-tp.update_status(text_model.make_short_sentence(140))
+# markovify sentence + hashtag (toghether = 140 characters)
+tweet = text_model.make_short_sentence(127) + "\n#TwilightZone"
+
+# send to twitter
+tp.update_status(tweet)
