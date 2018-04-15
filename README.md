@@ -1,8 +1,5 @@
-# botRodSerling
+# Twilight Zone Bot [@botRodSerling](https://twitter.com/botRodSerling)
 This was a personal project to get familiar with Twitter's API and Markov chains.
-
-My twitter bot can be found here: [@botRodSerling](https://twitter.com/botRodSerling)
-
 
 #### Libraries used
 * [Tweepy](https://github.com/tweepy/tweepy) to interact with Twitter API
